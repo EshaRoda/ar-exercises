@@ -13,4 +13,4 @@ puts @store3
 @store3.destroy
 
 # Verify that the store has been deleted by again outputting (putsing) the count (as you did in Exercise 1.)
-puts Store.count
+puts Store.count(:all)

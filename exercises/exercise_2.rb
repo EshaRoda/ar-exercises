@@ -10,8 +10,7 @@ puts "----------"
 puts @store1
 
 # Load the second store from the database and assign it to @store2.
-@store2 = Store.find(2)
-puts @store2
+@store2 = Store.find_by(id: 2)
 
 # Update the first store (@store1) instance in the database.
-@store1.update(name: 'Burnaby!')
+@store1.update(name: 'New Store')
