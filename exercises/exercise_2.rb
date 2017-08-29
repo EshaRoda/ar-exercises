@@ -14,4 +14,4 @@ puts @store1
 puts @store2
 
 # Update the first store (@store1) instance in the database.
-@store1.update(name: 'Great Job!')
+@store1.update(name: 'Burnaby!')
